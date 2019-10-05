@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font: 16px Helvetica, Arial;
+}
+form {
+  background: #333;
+  padding: 0.5rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+form input {
+  flex: 1;
+  border: 0;
+  padding: 1rem;
+  margin-right: 0.5rem;
+}
+form button {
+  background: forestgreen;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  padding: 1rem 2rem;
+}
+#messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 64px;
+}
+#messages li {
+  padding: 0.5rem 1rem;
+}
+#messages li:nth-child(odd) {
+  background: #eee;
+}
